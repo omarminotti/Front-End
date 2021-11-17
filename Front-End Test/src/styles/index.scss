@@ -1,0 +1,409 @@
+// Colors
+$primary: #461e7d;
+$secondary: #fd6600;
+$complementary: #5738ff;
+$black: #000000;
+$white: #ffffff;
+
+@import "./fonts.scss";
+
+/*------------------------------------
+GENERALE
+------------------------------------*/
+.one {
+  width: 20%;
+  margin-top: 45px;
+}
+.two {
+  width: 80%;
+  padding-left: 0px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+body {
+  background-color: $white;
+  font-family: "Avenir-Light", Arial, Helvetica, sans-serif;
+  margin: 40px 113px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6:not(:first-child) {
+  margin-top: 30px;
+  font-family: "Avenir-Black", Arial, Helvetica, sans-serif;
+}
+.cover_caption_copy > h6 {
+  font-family: "Avenir-Black", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.filters > label > i {
+  color: $primary;
+}
+ul {
+  margin-top: -15px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+i {
+  margin-right: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(164, 164, 164);
+  margin: 0 10px;
+}
+button {
+  border: none;
+  color: #a4a4a4;
+  background-color: $white;
+  margin: 0 15px;
+}
+.current_page {
+  background-color: $complementary;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+}
+.border-bottom {
+  border: 1px solid #0000001a;
+  margin: 30px 0;
+  margin-right: 20px;
+}
+.border-left {
+  border-left: 1px solid #0000001a;
+}
+.primary {
+  color: $primary;
+}
+.complementary {
+  color: $complementary;
+}
+.fixSpace {
+  margin-right: 18px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.right {
+  position: absolute;
+  left: 72%;
+  top: 50px;
+  width: 25%;
+}
+
+/*------------------------------------
+CUSTOM CHEKBOX
+------------------------------------*/
+
+/* The container */
+.filter_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.filter_container input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #0000001a;
+}
+
+/* When the checkbox is checked, add a blue background */
+.filter_container input:checked ~ .checkmark {
+  background-color: $complementary;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkmark:hover {
+  background-color: #0000001a;
+}
+
+/* Show the checkmark when checked */
+.filter_container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.filter_container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*------------------------------------
+CARDS
+------------------------------------*/
+.card {
+  display: table;
+  border: none;
+  margin-bottom: 35px;
+}
+.card .banner {
+  width: 108px;
+  height: 26px;
+  background-color: $secondary;
+  color: $white;
+  border-radius: 0 5px 5px 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  font-family: "Avenir-Black", Arial, Helvetica, sans-serif;
+}
+.heart {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.cover {
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-color: #00000008;
+}
+.cover_caption {
+  display: table;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.cover_caption_copy {
+  display: table-cell;
+}
+label,
+.book {
+  font-family: "Avenir-Book", Arial, Helvetica, sans-serif;
+}
+.black {
+  font-family: "Avenir-Black", Arial, Helvetica, sans-serif;
+}
+
+.card_footer {
+  text-align: center;
+  margin: 5px auto;
+  width: 100%;
+  display: flex;
+}
+.card_footer > div {
+  width: 50%;
+}
+
+/* The container */
+.card_filter_container {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+/* Hide the browser's default checkbox */
+.card_filter_container input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* When the checkbox is checked, add a blue background */
+.card_filter_container input:checked ~ .checkmark {
+  background-color: $complementary;
+}
+/* Show the checkmark when checked */
+.card_filter_container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.card_filter_container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.stars {
+  text-align: left;
+  letter-spacing: -10px;
+  color: $primary;
+  display: flex;
+  margin-bottom: 10px;
+}
+.star_value {
+  margin-left: 8px;
+}
+.card_stars {
+  text-align: left;
+  color: $primary;
+  letter-spacing: -8px;
+  font-size: 10px;
+  padding-top: 2.5px;
+}
+
+.compare_p {
+  font-size: 15px;
+  color: #0000004d;
+  font-family: "Avenir-Black", Arial, Helvetica, sans-serif;
+}
+
+.prezzi {
+  display: flex;
+  margin-bottom: -15px;
+}
+.prezzi > p:last-child {
+  margin-left: 10px;
+}
+.prezzo {
+  color: $primary;
+  font-size: 20px;
+}
+.prezzoPreSconto {
+  color: rgb(183, 183, 183);
+  font-size: 12px;
+  margin-top: 4.5px;
+  text-decoration: line-through;
+}
+.scontato {
+  color: $secondary !important;
+}
+.note {
+  color: $primary;
+  font-size: 15px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.card_border {
+  border: 0.5px solid #0000001a;
+  margin: 5px 0;
+}
+
+/*------------------------------------
+FOOTER NAVBAR
+------------------------------------*/
+.footer_border {
+  border: 0.5px solid #0000001a;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.next_link {
+  margin-right: 10px;
+  display: inline-block;
+  color: $complementary;
+}
+
+.nav_footer {
+  text-align: center;
+  margin: 5px auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+  color: #00000080;
+}
+.nav_footer > div {
+  width: calc(33.3%);
+  margin: 0 30px;
+}
+.left_div {
+  text-align: left;
+  padding-top: 10px;
+}
+.middle_div {
+  padding: 2px;
+}
+.right_div {
+  text-align: right;
+  padding-top: 10px;
+}
+
+/*------------------------------------
+BANNER
+------------------------------------*/
+.left_message {
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+}
+.right_message {
+  width: 50%;
+  letter-spacing: 0.6px;
+  text-align: right;
+}
+.message_button {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  padding: 10px 30px;
+}
+button:disabled,
+button[disabled] {
+  border: 2px solid #708dee;
+  background-color: $complementary;
+  color: #708dee;
+}
+.banner_div {
+  opacity: 1;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

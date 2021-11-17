@@ -1,0 +1,313 @@
+{
+  "boilers": [
+    {
+      "_id": "01",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Matis condens - Condensing Boiler 24 kW Methane - Indoor",
+      "prezzo": "1.350,00",
+      "prezzoPreSconto": "1.570,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": true,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "02",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "899,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "prezzoPreSconto": "927,00",
+      "inSconto": true,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 5
+    },
+    {
+      "_id": "03",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Luna Duo-Tec Condensing Boiler - 28 kW",
+      "prezzo": "790,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "28",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "prezzoPreSconto": "",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 5
+    },
+    {
+      "_id": "04",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "960,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno-esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 2
+    },
+    {
+      "_id": "05",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Prime Condensing Boiler - 28 kW",
+      "prezzo": "890,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-aperta",
+      "potenzaNominale": "28",
+      "utilizzo": "esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "06",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Matis condens - Condensing Boiler 24 kW Methane - Indoor",
+      "prezzo": "1.120,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-stagna",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "07",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Luna Duo-Tec Condensing Boiler - 28 kW",
+      "prezzo": "790,00",
+      "prezzoPreSconto": "927,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "28",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": true,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 5
+    },
+    {
+      "_id": "08",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "960,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno-esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "09",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "899.00",
+      "prezzoPreSconto": "927,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": true,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "10",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "960,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-stagna",
+      "potenzaNominale": "24",
+      "utilizzo": "esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "11",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Matis condens - Condensing Boiler 24 kW Methane - Indoor",
+      "prezzo": "1.120,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4,
+      "dates": "Nov-Mar"
+    },
+    {
+      "_id": "12",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Prime Condensing Boiler - 28 kW",
+      "prezzo": "890,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-aperta",
+      "potenzaNominale": "28",
+      "utilizzo": "esterno",
+      "alimentazione": "metano",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4,
+      "dates": "Nov-Jan"
+    },
+    {
+      "_id": "13",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Prime Condensing Boiler - 28 kW",
+      "prezzo": "890,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-aperta",
+      "potenzaNominale": "28",
+      "utilizzo": "esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 3
+    },
+    {
+      "_id": "14",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Genus One Condensing Boiler - 24 kW",
+      "prezzo": "960,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-stagna",
+      "potenzaNominale": "24",
+      "utilizzo": "esterno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "15",
+      "immagine": "./boiler.png",
+      "brand": "Ariston",
+      "descrizione": "Matis condens - Condensing Boiler 24 kW Methane - Indoor",
+      "prezzo": "1.120,00",
+      "prezzoPreSconto": "",
+      "disponibile": true,
+      "tipologia": "camera-stagna",
+      "potenzaNominale": "24",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    },
+    {
+      "_id": "16",
+      "immagine": "./boiler.png",
+      "brand": "Baxi",
+      "descrizione": "Luna Duo-Tec Condensing Boiler - 30 kW",
+      "prezzo": "790,00",
+      "disponibile": true,
+      "tipologia": "condensazione",
+      "potenzaNominale": "30",
+      "utilizzo": "interno",
+      "alimentazione": "elettrica",
+      "prezzoPreSconto": "",
+      "inSconto": false,
+      "note": "Sopralluogo e installazione inclusi",
+      "stelle": 4
+    }
+  ],
+  "stock": [
+    {
+      "SCEGLI PER" : {
+        "Disponibili": 15,
+        "In promozione": 4
+      }
+    },
+    {
+      "MARCHE": {
+        "baxi": 10,
+        "ariston": 6
+      }
+    },
+    {
+      "TIPOLOGIA": {
+        "condensazione": 9,
+        "cameraStagna": 4,
+        "cameraAperta": 3
+      }
+    },
+    {
+      "ALIMENTAZIONE": {
+        "elettrica": 15,
+        "metano": 1
+      }
+    },
+    {
+      "POTENZA": {
+        "diciannove": 0,
+        "ventiquattro": 10,
+        "ventotto": 5,
+        "trenta": 1
+      }
+    },
+    {
+      "UTILIZZO": {
+        "interno": 9,
+        "esterno": 5,
+        "internoEsterno": 2
+      }
+    },
+    {
+      "STELLE": {
+        "cinque": 3,
+        "quattro": 11,
+        "tre": 1,
+        "due": 1,
+        "una": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("../fonts/Avenir-Black.eot");
+  src: url("../fonts/Avenir-Black.eot#iefix") format('embedded-opentype'),
+      url("../fonts/Avenir-Black.woff2") format('woff2'),
+      url("../fonts/Avenir-Black.woff") format('woff'),
+      url("../fonts/Avenir-Black.ttf") format('truetype'),
+      url("../fonts/Avenir-Black.svg#Avenir-Black") format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("../fonts/Avenir-Light.eot");
+  src: url("../fonts/Avenir-Light.eot#iefix") format('embedded-opentype'),
+      url("../fonts/Avenir-Light.woff2") format('woff2'),
+      url("../fonts/Avenir-Light.woff") format('woff'),
+      url("../fonts/Avenir-Light.ttf") format('truetype'),
+      url("../fonts/Avenir-Light.svg#Avenir-Light") format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+// @font-face {
+//   font-family: ${({ theme }) => theme.fonts.primary};
+//   src: url(${avenir_book_eot});
+//   src: url(${avenir_book_eot}#iefix) format('embedded-opentype'),
+//       url(${avenir_book_woff2}) format('woff2'),
+//       url(${avenir_book_woff}) format('woff'),
+//       url(${avenir_book_ttf}) format('truetype'),
+//       url(${avenir_book_svg}#Avenir-Book) format('svg');
+//   font-weight: ${({ theme }) => theme.fontWeight.book};
+//   font-style: normal;
+//   font-display: block;
+// }

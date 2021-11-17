@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Design real life",
+      "cover": "/img/books/design-real-life.jpg",
+      "category": "Design"
+    },
+    {
+      "id": 2,
+      "title": "Learn design pattern",
+      "cover": "/img/books/designpattern.jpg",
+      "category": "Essentials"
+    },
+    {
+      "id": 3,
+      "title": "Design SVG",
+      "cover": "/img/books/design-svg.jpg",
+      "category": "Design"
+    },
+    {
+      "id": 4,
+      "title": "Learning React Native",
+      "cover": "/img/books/reactnative.jpg",
+      "category": "Mobile"
+    },
+    {
+      "id": 5,
+      "title": "React Native CookBook",
+      "cover": "/img/books/react-native-cookbook.jpg",
+      "category": "Mobile"
+    },
+    {
+      "id": 6,
+      "title": "Bootstrap 4 Blueprints",
+      "cover": "/img/books/bootstrap4-blue.jpg",
+      "category": "Ux"
+    },
+    {
+      "id": 7,
+      "title": "AWS System Administration",
+      "cover": "/img/books/aws-admin.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 8,
+      "title": "Effective DevOps",
+      "cover": "/img/books/effective-devops.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 9,
+      "title": "Kubernetes Up & Running",
+      "cover": "/img/books/kubernetes.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 11,
+      "title": "Using Docker",
+      "cover": "/img/books/using-docker.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 12,
+      "title": "Getting started React Native",
+      "cover": "/img/books/get-start-react-native.jpg",
+      "category": "Mobile"
+    },
+    {
+      "id": 13,
+      "title": "The new CSS layout",
+      "cover": "/img/books/design-layout.jpg",
+      "category": "Design"
+    },
+    {
+      "id": 14,
+      "title": "Design conversation",
+      "cover": "/img/books/design-conversation.jpg",
+      "category": "Design"
+    },
+    {
+      "id": 15,
+      "title": "Fullstack React Native",
+      "cover": "/img/books/fullstack-react-native.jpg",
+      "category": "Mobile"
+    },
+    {
+      "id": 16,
+      "title": "Javascript Testing Jasmine",
+      "cover": "/img/books/test-jasmine.jpg",
+      "category": "Test"
+    },
+    {
+      "id": 17,
+      "title": "Eloquent Javascript",
+      "cover": "/img/books/eloquent-js.jpg",
+      "category": "Essentials"
+    },
+    {
+      "id": 18,
+      "title": "Building Microservices",
+      "cover": "/img/books/microservices.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 19,
+      "title": "DevOps Handbook",
+      "cover": "/img/books/devops-handbook.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 20,
+      "title": "Setting up nginx",
+      "cover": "/img/books/nginx.jpg",
+      "category": "DevOps"
+    },
+    {
+      "id": 21,
+      "title": "JavaScript for designer",
+      "cover": "/img/books/design-javascript.jpg",
+      "category": "Design"
+    }
+  ]
+}
